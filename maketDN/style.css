@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    background: none;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper{
+    width: 945px;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    font-weight: 100px;
+    src: url(./gilroy-bold.ttf)format(ttf);
+}
+@font-face {
+    font-family: "Gilroy-Bold.eot";
+    font-weight: 100px;
+    src: url(./gilroy-bold.eot)format(ttf);
+}
+/* header */
+
+.navigation{
+    border-bottom: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.navigation ul{
+    width: 100%;
+    padding: 32px 0 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation a{
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+.navigation a:hover{
+    color:#070707;
+}
+ /* first-view */
+.first-view{
+    padding: 40px 0 104px;
+}
+
+.first-view__top{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.first-view__title{
+    font-family: "Gilroy-Bold";
+    width: 124px;
+    font-size: 48px;
+    line-height: 59px;
+    color: #070707;
+}
+
+.first-view__text{
+    font-family: "Gilroy-Bold";
+    width: 144px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+.first-view__button-block{
+    transform:rotate(-90deg);
+    font-family: "Gilroy-Bold";
+    font-size: 16px;
+
+    line-height: 20px;
+    color: #828282;
+
+}
+.first-view__button-block button{
+    cursor: pointer;
+    font-weight: 900;
+    color:#828282;
+
+}
+.first-view__button-block button.active{
+    color: #070707;
+    padding-top: 50px;
+}
+
+.splide__slide{
+    margin-top: 49px;
+    width: 100%;
+    height: 387px;
+    object-fit: contain;
+}
+
+.one{
+    background: url("./src/img/BSPP2266.png");
+}
+.two{
+    background: url("./src/img/slide2.jpg");
+}
+.three{
+    background: url("./src/img/slide3.jpg");
+}
+.four{
+    background: url("./src/img/slide4.jpg");
+}
+.five{
+    background: url("./src/img/slide5.jpg");
+}
+.six{
+    background: url("./src/img/slide6.jpg");
+}
+
+/* main */
+
+.about-me{
+    width: 1445px;
+    height: 506px;
+background: #F6F6F6;   
+}
+.about-me__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.about-me__title{
+    font-family: "Gilroy-Bold";
+    padding-top: 120px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+.about-me__block2{
+    padding-top: 20px;
+    width: 485px;
+    height: 218px;
+}
+.about-me__text{
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+
+}
+/* skills */
+
+.skills__block{
+    width: 125px;
+    height: 26px;
+    padding-top: 91px;
+    display: flex;
+    align-items: center;
+}
+.skills__text{
+    font-family: "Gilroy-Bold";
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.image__photoshop ul{
+    display: flex;
+    flex-direction: column;
+    font-family: "Gilroy-Bold.eot";
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #828282;
+}
+
+.image__adobe-illustrator ul{
+    display: flex;
+    flex-direction: column;
+    font-family: "Gilroy-Bold.eot";
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #828282;
+}
+
+.image__after-effects ul{
+    display: flex;
+    flex-direction: column;
+    font-family: "Gilroy-Bold.eot";
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #828282
+}
+
+.image__figma ul{
+    display: flex;
+    flex-direction: column;
+    font-family: "Gilroy-Bold.eot";
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #828282
+}
+
+
+.portfolio{
+    width: 1445px;
+    height: 2253px;
+background: #F6F6F6;   
+}
+.portfolio__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.portfolio__title{
+    font-family: "Gilroy-Bold";
+    padding-top: 113px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.portfolio__image1{
+    margin-top: 45px;
+    margin-bottom: 30px;
+    width: 936.24px;
+    height: 510px;
+    object-fit: contain
+    
+}
+
+.portfolio__text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    font-family: "Gilroy-Bold";
+    padding-top: 46px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707
+}
+
+.portfolio__image2{
+    margin-top: 45px;
+    margin-bottom: 20px;
+    width: 936.24px;
+    height: 510px;
+    object-fit: contain 
+}
+.portfolio__textReebok{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-family: "Gilroy-Bold";
+    padding-top: 46px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707
+}
+
+.portfolio__image3{
+    margin-top: 45px;
+    margin-bottom: 20px;
+    width: 936.24px;
+    height: 510px;
+    object-fit: contain 
+}
+
+.portfolio__textBraun{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-family: "Gilroy-Bold";
+    padding-top: 46px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707
+}
+
+.contacts__text{
+    padding-top: 114px;
+    font-family: "Gilroy-Bold";
+font-size: 34px;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.contacts__text2{
+    font-family: "Gilroy-Medium";
+    padding-top: 15px;
+    padding-bottom: 15px;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+}
+
+.contacts__button{
+    width: 180px;
+    height: 42px;
+    margin:  0 auto;
+    border-radius: 20px;
+    background-color: #070707;
+    color: #F6F6F6;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts__image ul{
+    width: 100%;
+    padding-top: 86px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.text__end{
+    font-family: "Gilroy-Medium";
+    margin: 0  auto;
+font-size: 18px;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+color: #828282;  
+}
+
+@media(max-width:767px) {
+    .navigation{
+        display: none;
+    }
+
+    .first-view__line{
+        width: 100%;
+        height: 3px;
+        background-color: #070707;
+
+    }
+    
+    .first-view__burger{
+        position: absolute;
+        right: 30px;
+        top: 68px;
+        width: 33px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .first-view{
+        width: 100%;
+        padding: 65px 26px 83px;
+    }
+
+    .first-view__button-block{
+        display: none;
+    }
+
+    .first-view__top{
+        flex-direction: column;
+        align-items: flex-start; 
+
+    }
+
+    .first-view__title{
+        font-size: 47px;
+        line-height: 58px;
+    }
+    .first-view__text{
+        text-align: left;
+        margin: 23px 0 0 ;
+        width: 155px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .first-view__image{
+        margin-top: 36px;
+        background: url("./photo_mobile.jpg") no-repeat top center / cover;
+        height: 387px;
+    }
+
+    .about-me{
+        height: 506px;
+        
+    }
+
+    .about-me__block{
+        height: 261px;
+    }
+
+    .portfolio{
+        width: 375px;
+        height: 1118px;
+        /* display: flex;
+    flex-direction: column;
+    align-items: center */
+    }
+
+    .portfolio__title{
+        width: 81px;
+        padding-top: 113px;
+    }
+
+    .portfolio__image1{
+        margin-top: 30px;
+        margin-bottom: 15px;
+        width: 316px;
+        height: 171px;
+    }
+
+    .portfolio__text{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-top: 32px;
+        text-align: center;
+    }
+
+
+
+}
+
