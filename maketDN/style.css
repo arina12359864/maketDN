@@ -152,71 +152,71 @@ background: #F6F6F6;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+    line-height: 1cm;
     color: #070707;
 
 }
 /* skills */
 
 .skills__block{
-    width: 125px;
-    height: 26px;
-    padding-top: 91px;
     display: flex;
-    align-items: center;
+    align-self: center;
+    justify-content: center;
 }
+
 .skills__text{
     font-family: "Gilroy-Bold";
     font-size: 34px;
     line-height: 42px;
+    letter-spacing: 0em;
+    line-height: 3cm;
+    text-align: center;
+    color: #070707;
+
+}
+
+.programs__text{
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
     text-align: center;
     color: #070707;
 }
 
+
 .image__photoshop ul{
     display: flex;
-    flex-direction: column;
+    width: 800px;
+    justify-content: space-between;
+    margin: 0 auto;
     font-family: "Gilroy-Bold.eot";
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-color: #828282;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #828282;
 }
 
-.image__adobe-illustrator ul{
+.image__photoshop-skill-item{
     display: flex;
     flex-direction: column;
-    font-family: "Gilroy-Bold.eot";
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-color: #828282;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    padding-top: 84px;
+    padding-bottom: 150px;
+
 }
 
-.image__after-effects ul{
-    display: flex;
-    flex-direction: column;
-    font-family: "Gilroy-Bold.eot";
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-color: #828282
+.image__photoshop-skill-item>img{
+    width: 90px;
+    height: 90px;
 }
-
-.image__figma ul{
-    display: flex;
-    flex-direction: column;
-    font-family: "Gilroy-Bold.eot";
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-color: #828282
-}
-
 
 .portfolio{
     width: 1445px;
     height: 2253px;
-background: #F6F6F6;   
+    background: #F6F6F6;   
 }
 .portfolio__block{
     display: flex;
@@ -236,8 +236,8 @@ background: #F6F6F6;
 .portfolio__image1{
     margin-top: 45px;
     margin-bottom: 30px;
-    width: 936.24px;
-    height: 510px;
+    width: 100%;
+    height: auto;
     object-fit: contain
     
 }
@@ -258,7 +258,8 @@ background: #F6F6F6;
     margin-top: 45px;
     margin-bottom: 20px;
     width: 936.24px;
-    height: 510px;
+    width: 100%;
+    height: auto;
     object-fit: contain 
 }
 .portfolio__textReebok{
@@ -276,8 +277,8 @@ background: #F6F6F6;
 .portfolio__image3{
     margin-top: 45px;
     margin-bottom: 20px;
-    width: 936.24px;
-    height: 510px;
+    width: 100%;
+    height: auto;
     object-fit: contain 
 }
 
@@ -405,35 +406,27 @@ color: #828282;
     .about-me__block{
         height: 261px;
     }
-
-    .portfolio{
-        width: 375px;
-        height: 1118px;
-        /* display: flex;
-    flex-direction: column;
-    align-items: center */
+    
+    .image__photoshop ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 320px;
     }
-
-    .portfolio__title{
-        width: 81px;
-        padding-top: 113px;
+    
+    .portfolio__block{
+        width: 375px;
+        height: 375px;
     }
 
     .portfolio__image1{
-        margin-top: 30px;
-        margin-bottom: 15px;
-        width: 316px;
-        height: 171px;
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+        width: 375px;
+        height: auto;
+
     }
-
-    .portfolio__text{
-        margin-top: 15px;
-        margin-bottom: 15px;
-        padding-top: 32px;
-        text-align: center;
-    }
-
-
 
 }
 
